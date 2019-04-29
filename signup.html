@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Movie Tickets, Plays, Sports, Events &amp; Cinemas near Pune - BookMyShow</title>
+<link rel="stylesheet" href="CSS/signin.css">
+<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+</head>
+
+<script type="text/javascript">
+	
+	function passwordvalidate()
+	{
+		var p1=document.getElementById("p1").value;
+		var p2=document.getElementById("p2").value;
+		
+		if(p1==p2)
+		{
+			return true;
+		}
+		else
+		{
+			alert("Password does not match");
+			return false;
+		}
+	}
+
+</script>
+
+<body>
+
+<div id="container">
+
+	<div class="header">
+		<p>Register</p>
+	</div>	
+	<h2>A world of<span class="Sedgwick"> Entertainment Awaits.</span></h2>
+	
+
+
+
+	<form id="form" action="signup.php" method="post" onsubmit="return passwordvalidate()">
+
+			<input class="name" type="text" name="username" placeholder="ENTER USER NAME" required maxlength="8" />
+	   		<input class="emailid" type="text" name="email" placeholder="ENTER YOUR EMAIL ID" /> 
+			<br/><br/>
+			<input class="mobile" type="text" name="mobile" placeholder="ENTER YOUR MOBILE NO" required maxlength="10" /> 
+			<br/><br/>
+	    	<input class="password" type="password" name="password1" placeholder="ENTER PASSWORD" required maxlength="16" id="p1"/>
+	    	<br/><br/>
+	    	<input class="cpassword" type="password" name="password2" placeholder="CONFIRM PASSWORD" required maxlength="16" id="p2"/>
+	    	<br/><br/>
+	    	<button name="submit" value="submit">Register</button>  
+	    	<br/>
+	    	
+	    	 <p>
+               
+               <a class="signup" href="signin.html" target="_self" >signin</a><br/>
+			 </p>
+            
+	</form>
+
+
+
+
+
+</div>	
+
+
+</body>
+</html>

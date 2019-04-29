@@ -1,0 +1,48 @@
+#seatmap{
+	width: 100%;
+	margin-top: 50px;
+}
+
+#seattable{
+	width: 100%;
+	margin: 0 0 0 50%;
+}
+
+.stable{
+	background-color: grey;
+	width: 32%;
+	height: 200px;
+	margin: auto;
+}
+
+.seatI{
+	width: 40px;
+	height: 40px;
+	float: left;
+
+}
+
+.seatI input{
+	width: 30px;
+	height: 30px;
+	margin: 0px 10px 10px 10px;
+	padding: 50px 0 0 0;
+
+}
+
+.seatI button{
+	width: 40px;
+	height: 40px;
+	margin: auto;
+	line-height: 30px;
+}
+
+.r2{
+	margin: 50px;
+}
+
+.btn{
+	margin-left: 47%;
+	margin-top: 10px;
+
+}

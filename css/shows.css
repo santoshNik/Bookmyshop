@@ -1,0 +1,15 @@
+#tablehead{
+	width: 100%;
+	height: 50px;
+	background-color: #0060CC;
+}
+
+#tablehead h1{
+	color: #ffffff;
+	text-align: center;
+}
+
+#theatretable{
+	width: 100%;
+	margin-top: 50px;
+}

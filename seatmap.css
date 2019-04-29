@@ -1,0 +1,17 @@
+.seatI{
+	width: 40px;
+	height: 40px;
+	float: left;
+
+}
+
+.seatI button{
+	width: 40px;
+	height: 40px;
+	margin: auto;
+	line-height: 30px;
+}
+
+.r2{
+	margin: 50px;
+}
